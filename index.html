@@ -12,10 +12,31 @@
       <div class="flex items-center gap-2">
         <img src="./public//images/logo.svg" alt="Mood tracker icon" class="" />
       </div>
-      <div class="w-10 h-10 rounded-full overflow-hidden">
-        <img src="./public/images/avatar-lisa.jpg" alt="User profile" aria-placeholder="./public/images/avatar-placeholder.svg" class="w-full h-full object-cover" />
-      </div>
+      <div id="profileButton" class="flex justify-center space-x-2 relative">
+            <div  class="w-10 h-10 rounded-full overflow-hidden cursor-pointer">
+              <img src="./public/images/avatar-lisa.jpg" alt="User profile" aria-placeholder="./public/images/avatar-placeholder.svg" class="w-full h-full object-cover" />
+            </div>
+            <div class="pt-4">
+               <img  src="./public/images/icon-dropdown-arrow.svg" alt=""></div>
+           
+
+            <div id="dropdownMenu" class="hidden absolute right-0 mt-12 w-58 bg-white rounded-lg shadow-lg overflow-hidden z-10">
+              <h1  class="block px-4 pt-3 font-bold text-[18px] text-gray-600">Lisa Maria</h1>
+              <p href="#" class="block px-4 pb-3 text-[16px] font-semi-bold text-gray-600 ">lisa@mail.com</p>
+              <div class="border border-gray-200 mx-2"></div>
+              <div class="flex space-x-2 px-4 py-3">
+                <img class="w-6" src="./public/images/icon-settings.svg" alt="">
+                <a href="#" class="text-[18px] font-bold  text-gray-600 ">Settings</a>
+              </div>
+              <div class="flex space-x-2 font-bold px-4 py-3">
+                <img class="w-6" src="./public/images/icon-logout.svg" alt="">
+
+                <a href="#" class="text-[18px] text-gray-600">Logout</a>
+              </div>
+            </div>
+          </div>
     </header>
     </div>
+     <script type="module" src="./main.ts"></script>
   </body>
 </html>
