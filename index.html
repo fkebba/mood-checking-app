@@ -36,7 +36,56 @@
             </div>
           </div>
     </header>
+
+    <main class="mt-24">
+      <section class="text-center mb-14">
+        <h1 class="text-blue-400 text-2xl font-medium mb-2">Hello, Lisa!</h1>
+        <h2 class="text-navy-900 text-4xl font-bold mb-2">How are you feeling today?</h2>
+        <p class="text-gray-600" id="current-date">Wednesday, April 16th, 2025</p>
+      </section>
+
+       <div class="grid grid-cols-1 md:grid-cols-5 gap-6 mb-8">
+        <div class="relative bg-white rounded-xl pl-6 pt-6 shadow-sm md:col-span-3 overflow-hidden">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div>
+              <div>
+              <p class="text-gray-700 font-bold text-lg">I'm feeling</p>
+              <h3 class="text-navy-900 text-3xl font-bold ">Very Happy</h3>
+            </div>
+              <div class="pt-24">
+                <img src="./public/images/icon-quote.svg" />
+                <p class="italic  text-gray-700 font-bold pt-4">"When your heart is full, share<br>your light with the world."</p>
+              </div>
+            </div>
+            <div class="absolute right-6 bottom-0 translate-y-1/12">
+              <img class="w-70" src="./public/images/icon-very-happy-color.svg" alt="Very happy emoji" class="w-48 h-48" />
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-2">
+          <div class="bg-white rounded-xl p-6 mb-4">
+            <div class="flex items-center gap-2 ">
+              <img src="./public/images/icon-sleep.svg" alt="Sleep icon" class="w-5 h-5" />
+              <p class="text-gray-600 font-bold">Sleep</p>
+            </div>
+            <p class="text-navy-900 text-2xl font-bold">9+ hours</p>
+          </div>
+          <div class="bg-white rounded-xl p-6  mt-6">
+            <div class="flex items-center gap-2 mb-2">
+              <img src="./public/images/icon-reflection.svg" alt="Reflection icon" class="w-5 h-5" />
+              <p class="text-gray-600 font-light-bold ">Reflection of the day</p>
+            </div>
+            <p class="text-[14px] text-gray-700 font-bold">Woke up early and finally tackled a big project!</p>
+            <div class="mt-8 flex gap-2">
+              <span class="text-gray-600 font-light-bold italic px-3 py-1 rounded-full text-md">#Grateful</span>
+              <span class="text-gray-600 italic font-light-bold px-3 py-1 rounded-full text-md">#Optimistic</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </main>
     </div>
      <script type="module" src="./main.ts"></script>
   </body>
-</html>
+</html> 
